@@ -16,13 +16,17 @@
 <!-- /code_chunk_output -->
 
 ### 勉強項目
+* git(ブランチ)について
+* githubについて
+* markdownについて
+<br>
+
 * JavaScriptとは
-* JavaScriptの歴史
+* (JavaScriptの歴史)
 * JavaScriptでできること
 * JavaScriptの種類
 * コーディング方法
 * 作りたいもの(目標)
-* 
 * 
 
 ### スケジュール
@@ -35,7 +39,9 @@ actor User as user
 cloud  Brouser
 database Server
 
-user --> Brouser
-note right : 
-Brouser --> Server
+user --> Brouser : webを見たい
+user <-- Brouser : webを表示
+Brouser --> Server : データちょうだい 
+Brouser <-- Server : データあげる
+note bottom : JavaScriptファイルを渡す
 ```
