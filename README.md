@@ -16,6 +16,7 @@
       - [関連用語](#関連用語)
       - [JavaScriptでできること](#javascriptでできること)
       - [フレームワーク](#フレームワーク)
+      - [コーディング方法](#コーディング方法)
 
 <!-- /code_chunk_output -->
 
@@ -128,3 +129,9 @@ note bottom : JavaScriptファイルを渡す
     * Meteor.js
         * 概要： 
         * 主な機能：
+
+#### コーディング方法
+* [基礎](./coding_basic.md)
+* [高層関数](./coding_high_rise.md)
+
+[TOPへ](#javascriptについての勉強)
